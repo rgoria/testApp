@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title>Aprendiendo Bower</title>
+<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+</head>
+<body>
+<h1>Test Bower</h1>
+<button>Animar!!</button>
+<div style="background:red; height:100px; width:100px; position:absolute;">
+</div>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("div").animate({left:'250px'});
+		});
+	});
+	
+</script>
+</body>
+</html>
